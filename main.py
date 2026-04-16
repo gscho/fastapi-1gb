@@ -6,6 +6,8 @@ import xgboost
 
 from fastapi import FastAPI
 
+
+print("Starting app")
 app = FastAPI(title="1.5 GiB Single-Function App", version="1.0.0")
 
 
