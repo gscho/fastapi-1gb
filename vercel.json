@@ -1,0 +1,19 @@
+{
+  "build": {
+    "env": {
+      "VERCEL_CLI_VERSION": "vercel@https://vercel-5cmactr4i.vercel.sh/tarballs/vercel.tgz"
+    }
+  },
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ]
+}
