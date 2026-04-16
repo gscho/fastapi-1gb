@@ -21,5 +21,6 @@ def app_info():
             "PIL": PIL.__version__,
             "pandas": pd.__version__,
             "spacy": spacy.__version__,
+            "xgboost": xgboost.__version__,
         },
     }
