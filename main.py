@@ -2,6 +2,7 @@ import sklearn
 import PIL
 import pandas as pd
 import spacy
+import xgboost
 
 from fastapi import FastAPI
 
